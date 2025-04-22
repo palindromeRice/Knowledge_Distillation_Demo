@@ -27,10 +27,11 @@ This notebook shows how to:
 
 ## 📥 Dataset
 
-We use the **News Summary Dataset** from Kaggle, downloaded via `kagglehub`:
+We used the **[News Summary Dataset](https://www.kaggle.com/datasets/sunnysai12345/news-summary)** from Kaggle, as it was also used by the original author who fine-tuned the teacher model for this task. This ensures consistency in training objectives and evaluation.
 
-- `news_summary.csv` — main file with `text` (article) and `ctext` (summary) columns. Used for both distillation and evaluation.  
-- `news_summary_more.csv` — additional raw articles (not used directly in this notebook).
+- `news_summary.csv` — Contains the main dataset with `text` (article) and `ctext` (summary) columns. Used for both knowledge distillation and evaluation.  
+- `news_summary_more.csv` — Provides additional raw articles (not directly used in this notebook).
+
 
 ---
 
