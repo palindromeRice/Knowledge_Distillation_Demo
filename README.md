@@ -21,7 +21,7 @@ This notebook shows how to:
 - **Teacher model**: `mrm8488/t5-base-finetuned-summarize-news` — already **fine‑tuned** on this news summarization task (we did **not** fine‑tune it ourselves).  
 - **Student model**: `google-t5/t5-small` — used **without** additional fine‑tuning.  
 - This configuration follows the [PyTorch Torchtune KD tutorial](https://pytorch.org/torchtune/0.3/tutorials/llama_kd_tutorial.html), which shows that transferring knowledge from a specialized teacher into a non‑fine‑tuned student best highlights the effect of distillation.  
-- ⚠️ Teacher performance (ROUGE, BERTScore) depends entirely on the original fine‑tuning quality by the model uploader. We use those results *as‑is*.
+- ⚠️ Teacher performance (ROUGE, BERTScore) depends entirely on the original fine‑tuning quality by the model uploader.
 
 ---
 
